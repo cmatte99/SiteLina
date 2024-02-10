@@ -1,0 +1,167 @@
+/* site.css */
+
+/* Your existing styles */
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+/* Additional styles for consistent layout */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background-color: #f8f9fa;
+    padding: 10px 0;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+/* Main Content */
+main {
+    padding: 20px 0;
+}
+
+/* Footer */
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Links */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+    a:hover {
+        text-decoration: underline;
+    }
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Use a cute font */
+    background-color: #eae5ff; /* Light purple background */
+}
+
+.header {
+    background-color: #a389ff; /* Purple header background */
+}
+
+.navbar-brand,
+.navbar-nav a {
+    color: #ffffff !important; /* White text color */
+}
+
+/* Use Bootstrap primary color for links */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+/* Calculator Box */
+.calculator-box {
+    background-color: #d3b8ff; /* Light purple box background */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Bootstrap button styles */
+button {
+    margin-top: 10px;
+}
+
+/* Footer */
+.footer {
+    background-color: #342a41; /* Dark purple footer background */
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Use a cute font */
+    background-color: #eae5ff; /* Light purple background */
+}
+
+.header {
+    background-color: #a389ff; /* Purple header background */
+}
+
+/* Dark purple text color for header */
+.navbar-brand,
+.navbar-nav a {
+    color: #342a41 !important;
+}
+
+/* Use Bootstrap primary color for links */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+/* Calculator Box */
+.calculator-box {
+    background-color: #d3b8ff; /* Light purple box background */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Bootstrap button styles */
+button {
+    margin-top: 10px;
+}
+
+/* Footer */
+.footer {
+    background-color: #342a41; /* Dark purple footer background */
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}

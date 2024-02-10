@@ -1,0 +1,35 @@
+﻿@{
+    ViewData["Title"] = "Privacy";
+}
+
+
+<h1>Service Charge Calculator</h1>
+
+<div>
+    <label for="hours">Number of Hours:</label>
+    <input type="number" id="hours" />
+    <span id="hoursError" class="text-danger"></span>
+</div>
+
+<div>
+    <label for="chargePerHour">Charge Per Hour:</label>
+    <input type="text" id="chargePerHour" value="10" readonly />
+</div>
+
+<div>
+    <button id="calculateButton">Calculate Total</button>
+</div>
+
+<div>
+    <label for="total">Total:</label>
+    <input type="text" id="total" readonly />
+</div>
+
+<div>
+    <a asp-area="" asp-controller="Home" asp-action="Index">Back to Home</a>
+</div>
+
+@section Scripts {
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/js/site.js"></script>
+}
